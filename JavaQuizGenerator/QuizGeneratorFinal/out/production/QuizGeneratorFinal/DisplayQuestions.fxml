@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="questionsPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onDragDetected="#questions" onDragDone="#questions" onDragDropped="#questions" onDragEntered="#questions" onDragExited="#questions" onDragOver="#questions" onMouseDragEntered="#questions" onMouseDragExited="#questions" onMouseDragOver="#questions" onMouseDragReleased="#questions" prefHeight="400.0" prefWidth="658.0" styleClass="root" stylesheets="@quiz.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="DisplayQuestionsController">
+   <children>
+      <Label fx:id="questionLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="15.0" layoutY="79.0" prefHeight="58.0" prefWidth="531.0" text="select an option." textAlignment="CENTER" textFill="#f2e8df" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="84.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Button fx:id="optionButtonA" layoutX="97.0" layoutY="157.0" mnemonicParsing="false" onAction="#answerSelected" text="A" />
+      <Button fx:id="optionButtonD" layoutX="97.0" layoutY="285.0" mnemonicParsing="false" onAction="#answerSelected" text="D" />
+      <Button fx:id="optionButtonC" layoutX="97.0" layoutY="242.0" mnemonicParsing="false" onAction="#answerSelected" text="C" />
+      <Button fx:id="optionButtonB" layoutX="97.0" layoutY="200.0" mnemonicParsing="false" onAction="#answerSelected" text="B" />
+      <Label fx:id="optionLabelA" layoutX="140.0" layoutY="161.0" styleClass="Label" text="Option A" textFill="#f2e8df">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label fx:id="optionLabelB" layoutX="140.0" layoutY="204.0" styleClass="Label" text="Option B" textFill="#f2e8df">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label fx:id="optionLabelC" layoutX="140.0" layoutY="246.0" styleClass="Label" text="Option C" textFill="#f2e8df">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label fx:id="optionLabelD" layoutX="140.0" layoutY="289.0" styleClass="Label" text="Option D" textFill="#f2e8df">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label fx:id="questionNoLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="24.0" layoutY="40.0" prefHeight="25.0" prefWidth="157.0" text="Question" textFill="#f2e8df">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="timerLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="549.0" layoutY="305.0" prefHeight="58.0" prefWidth="57.0" styleClass="Label" text="Label" textAlignment="CENTER" />
+      <Label fx:id="noteLabel" alignment="CENTER" layoutX="82.0" layoutY="65.0" styleClass="Label" stylesheets="@quiz.css" text="Label" textAlignment="CENTER" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,224 @@
+.root{
+    -fx-background-color: #260F01;
+    -fx-font-family:"Helvetica";
+    -fx-border-color: #6C8C8C;
+    -fx-border-width: 5;
+
+}
+
+.button
+{
+    -fx-background-color: #A67449;
+    -fx-font-family:"Helvetica";
+    -fx-text-fill: #F2E8DF;
+    -fx-border-color: #6C8C8C;
+    -fx-border-width: 1;
+
+
+
+}
+
+.button:hover
+{
+     -fx-background-color: #F2E8DF;
+     -fx-text-fill: #A67449;
+
+
+}
+
+.button:pressed
+{
+    -fx-background-color: #6C8C8C;
+    -fx-text-fill: #260F01;
+
+}
+
+.Label
+{
+    -fx-font-size: 18;
+    -fx-font-family: "Helvetica";
+    -fx-text-fill: #F2E8DF;
+
+}
+
+.TextField
+{
+    -fx-background-color: #F2E8DF;
+    -fx-font-family: "Helvetica";
+
+
+
+}
+
+.list-view{
+    -fx-background-color: #8C4303;
+    -fx-border-color: #6C8C8C;
+    -fx-border-width: 5;
+    -fx-font-family:"Helvetica";
+
+}
+.list-cell:filled:selected:focused, .list-cell:filled:selected {
+    -fx-background-color:#260F01;
+    -fx-text-fill: #F2E8DF;
+}
+
+.list-cell{
+    -fx-background-color: #A4A697;
+    -fx-text-fill: #260F01;
+}
+
+.list-cell:odd{
+
+    -fx-background-color: #8B8C80;
+
+}
+
+.list-cell:filled:hover {
+   -fx-background-color: #260F01;
+    -fx-text-fill: #A4A697 ;
+}
+
+
+#quizzlerLabel {
+
+    -fx-font-size: 35;
+    -fx-font-family: "Helvetica";
+    -fx-font-weight: Bold;
+    -fx-text-fill: #6C8C8C;
+
+
+}
+
+#noteLabel{
+
+    -fx-font-size: 13;
+    -fx-font-weight: bold;
+    -fx-text-fill: #6C8C8C;
+
+
+}
+
+#questionLabel
+{
+    -fx-font-size: 18;
+    -fx-font-family: "Helvetica";
+    -fx-text-fill: #F2E8DF;
+
+}
+
+#questionNoLabel
+{
+    -fx-font-size: 16;
+    -fx-font-family: "Helvetica";
+    -fx-text-fill: #A67449;
+
+}
+
+#playAgainLabel
+{
+    -fx-font-size: 16;
+    -fx-font-family: "Helvetica";
+    -fx-text-fill: #F2E8DF;
+
+
+}
+
+#scoreLabel
+{
+    -fx-font-size: 35;
+    -fx-font-family: "Helvetica";
+    -fx-text-fill: #6C8C8C;
+    -fx-font-weight: Bold;
+
+
+}
+
+#optionLabelA
+{
+    -fx-font-size: 14;
+    -fx-font-family: "Helvetica";
+    -fx-text-fill: #6C8C8C;
+
+}
+
+#optionLabelB
+{
+    -fx-font-size: 14;
+    -fx-font-family: "Helvetica";
+    -fx-text-fill: #6C8C8C;
+
+}
+
+#optionLabelC
+{
+    -fx-font-size: 14;
+    -fx-font-family: "Helvetica";
+    -fx-text-fill: #6C8C8C;
+
+}
+
+#optionLabelD
+{
+    -fx-font-size: 14;
+    -fx-font-family: "Helvetica";
+    -fx-text-fill: #6C8C8C;
+
+}
+
+#timerLabel {
+
+    -fx-font-size: 25;
+    -fx-text-fill: #6C8C8C;
+    -fx-font-weight: Bold;
+
+}
+
+.Alert {
+    -fx-background-color:#260F01;
+
+}
+
+.Alert:header *.header-panel{
+    -fx-background-color:#260F01;
+
+
+}
+
+.Alert > *.content.label {
+    -fx-font-family: "Helvetica";
+    -fx-font-size: 16;
+    -fx-text-fill:#A67449;
+}
+
+.Alert:header *.header-panel *.label{
+    -fx-font-family: "Helvetica";
+    -fx-font-size: 18;
+    -fx-text-fill:#6C8C8C;
+
+}
+
+.Alert > *.button-bar *.button
+{
+    -fx-background-color: #A67449;
+    -fx-font-family:"Helvetica";
+    -fx-text-fill: #F2E8DF;
+
+
+
+}
+
+.Alert > *.button-bar *.button:hover
+{
+     -fx-background-color: #F2E8DF;
+     -fx-text-fill: #A67449;
+
+
+}
+
+.Alert > *.button-bar *.button:pressed
+{
+    -fx-background-color: #6C8C8C;
+    -fx-text-fill: #260F01;
+
+}
+
